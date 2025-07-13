@@ -34,7 +34,7 @@ services:
   toon:
     container_name: toon_container
     restart: always
-    image: mazodev/toon:v1
+    image: mazodev/toon
     depends_on:
       db:
         condition: service_healthy
