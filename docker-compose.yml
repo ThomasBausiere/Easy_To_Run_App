@@ -5,8 +5,8 @@ services:
     ports:
     - "3307:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD:root
-      - MYSQL_DATABASE:bdd_toon
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bdd_toon
     volumes:
       - db_toon:/var/lib/mysql
       - ./script.sql:/docker-entrypoint-initdb.d/script.sql   
