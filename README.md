@@ -14,7 +14,7 @@ Ce projet lance une application Java connectée à une base MySQL et visualisabl
 ## 🚀 Lancer l'application
 
 ```bash
-git clone https://github.com/ThomasBausiere/toon-app.git
+git clone https://github.com/ThomasBausiere/Easy_To_Run_App.git
 cd toon-app
 docker-compose up --build
 ```
